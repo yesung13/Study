@@ -1,0 +1,55 @@
+대상	단축키	설명
+
+새창 열기	Ctrl + N
+
+새 쿼리 탭	Ctrl + T
+
+쿼리 탭 닫기	Ctrl + F4
+
+실행중인 작업취소	Esc	
+
+이전 탭	Ctrl + Shift + Tab	이전 탭으로 이동
+
+다음 탭	Ctrl + Tab	다음 탭으로 이동
+
+실행	F9	쿼리탭의 전체 쿼리가 실행
+
+선택 실행	Ctrl + F9	
+
+현재 쿼리 실행	Ctrl + Shift + F9	
+
+현재 쿼리의 실행 계획	Ctrl + F7	단축키 추가
+
+다른이름으로 저장	F12	쿼리를 다른 이름으로 저장
+
+선택 영역을 파일로 저장	Ctrl + Shift + S	
+
+청소	Ctrl + W	쿼리편집기 내용 전부 지우기
+
+내용 찾기	Ctrl + F	
+
+내용 바꾸기	Ctrl + R	
+
+다음 찾기 또는 바꾸기	F3 SQL 재구성	Ctrl + F8	더 읽기 쉽게 할 수 있도록 활성화된 편집기에서 어수선한 SQL을 자동으로 재구성
+
+주석 설정/해제	Ctrl + F6	
+
+데이터 결과 처음으로 이동	Ctrl + PgUp	단축키 추가
+
+데이터 결과 마지막으로 이동	Ctrl + PgDn	단축키 추가
+
+행 삽입	Ins	
+
+행 복제후 삽입	Ctrl + Ins	
+
+선택한 행을 삭제	Ctrl + Del	
+
+적용	Ctrl + Enter	수정한 행을 update
+
+다음	Ctrl + Alt + PgDn	
+
+모두 보기	Ctrl + Alt + End	
+
+이전 결과 탭	Alt + Left	
+
+다음 결과 탭	Alt + Right
