@@ -36,6 +36,35 @@ update tablename set col1=새값 where조건;
 *delete문
 delete from tablename where 조건;
 
+*쿼리문예시
+
+-테이블생성
+CREATE TABLE TABLEREGISTER(
+ID VARCHAR(20) NOT NULL,
+PWD VARCHAR(20) NOT NULL,
+NAME DHAR(6) NULL,
+PHONE VARCHAR(30) NULL,
+ADDRESS VARCHAR(60) NULL
+);
+
+-데이터 삽입
+INSERT INTO TABLEREGISTER (ID, PWD, NAME, PHONE, ADDRESS) 
+VALUES('ABNABN', '123456', 'ㅇㅇㅇ', '010-1111-1111', 'ㅇㅇ시');
+SELECT * FROM TABLEREGISTER;
+
+-pk설정 변경
+ALTER TABLE TABLEREGISTER
+ADD PRIMARY KEY(ID);
+
+-데이터 변경
+UPDATE TABLEREGISTER SET PWD='654321'
+WHERE ID='ABNABN';
+
+-데이터 삭제
+DELETE FROM TABLEREGISTER
+WHERE ID='ABNABN';
+
+*auto_increment (값 자동증가): pk로 지정해야 사용할 수 있음. 시퀀스와 비슷
 
 
 
