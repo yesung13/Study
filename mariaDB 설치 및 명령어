@@ -1,5 +1,7 @@
 SHOW DATABASES; #db 목록보기
 
+show errors; #에러나 경고 다시 보기
+
 create datebase dbname; #db 생성
 
 use dbname; # 특정 db 사용하기
@@ -7,6 +9,33 @@ use dbname; # 특정 db 사용하기
 drop datebase [if exists] dbname; #필요없는 db 삭제
 
 DROP table member;
+
+
+*insert문
+
+insert into tablename values(값1, 값2);
+insert into tablename (col1, ...) values (값1, ...);
+
+*select문
+select col1, col2 ... from tablename;
+
+-컬럼의 이름 변경하여 출력
+select col1 as '번호', col2 as '성명', ... from tablename;
+
+-오름차순, 내림차순(오라클이랑 동일한 방법)
+desc, asc
+
+-결과중 100번째부터 10개만 가져오기
+select * from tablename limit 100, 10;
+
+
+*update문
+update tablename set col1=새값 where조건;
+
+
+*delete문
+delete from tablename where 조건;
+
 
 
 
