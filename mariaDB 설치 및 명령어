@@ -1,0 +1,12 @@
+SHOW DATABASES; #db 목록보기
+
+create datebase dbname; #db 생성
+
+use dbname; # 특정 db 사용하기
+
+drop datebase [if exists] dbname; #필요없는 db 삭제
+
+DROP table member;
+
+
+
