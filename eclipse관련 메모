@@ -1,0 +1,40 @@
+*이클립스 파일 View
+Package Explorer 
+
+자바의 패키지 형태로 구분해서 보여주는 뷰다. Dynamic Web Project 일 경우 src 디렉토리가 주로 자바소스의 기준디렉토리가 된다. 
+파일을 패키지별 리스트로 보는 방법과 트리구조형태로 보는 방법이 있다. 
+툴바 메뉴중 제일 우측의 역삼각형을 클릭해서 보는 방법을 조정할 수 있다.
+
+
+
+Navigator
+
+윈도우의 탐색기와 가장 유사하다. Package Explorer에서 안 보였던 디렉토리들도 다 확인할 수 있다.
+윈도우 탐색기의 모양에 익숙해진 사람들이 선호하는 뷰다, 단점이 있다면 에러가 난 자바파일의 아이콘 표시가 안 된다.
+자바 파일의 복사와 이동이 비교적 자유롭다.
+
+
+
+Project Explorer
+
+패키지 익스플로러와 유사하지만 JEE 개발에 맞춰져 있다. 
+제일 상단에 2.4를 포함한 아이콘은 web.xml 의 구성을 보여주는 곳이다. 
+Java Resources: src로 표시된 부분이 자바 소스의 기준 디렉토리다. 웹개발에 최적화된 뷰다.
+
+출처: https://freegians.tistory.com/entry/Eclipse-View-Package-Explorer-Navigator-Project-Explorer [프리지앙의 일상]
+
+
+*JAVA SE 와 EE 차이점
+JAVA SE (Java Standard Edition)
+
+자바 표준 에디션은 가장 기본이 되는 에디션입니다.흔히 자바 언어라고 하는 대부분의 패키지가 포함된 에디션이며
+주요 패키지로는 java.lang.*, java.io.*, java.util.*, java.awt.*, javax.rmi.*, javax.net.* 등이 있습니다.
+
+
+JAVA EE (Java Enterprise Edition)
+
+자바로 구현되는 웹프로그래밍에서 가장 많이 사용되는 JSP, Servlet을 비롯하여, 데이터베이스에 연동하는 JDBC, 
+그 외에도 JNDI, JTA, EJB 등의 많은 기술들이 포함되어 있습니다.
+Java EE는 Java SE의 API에 추가로(lib 디렉토리에 포함되어 있는 JAR파일들)의 차이입니다.
+
+출처: https://210life.tistory.com/entry/Java-EE와-Java-SE의-차이점 [210 Life]
