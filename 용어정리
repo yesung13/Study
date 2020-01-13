@@ -28,6 +28,7 @@ JSP,Servlet 구동 환경 제공
 
 컨테이너, 웹컨테이너, 서블릿 컨테이너라고도 부름
 
+
 * JSP, servlet을 실행시킬 수 있는 소프트웨어 = 컨테이너
 
 동작 프로세스
@@ -47,4 +48,8 @@ JSP,Servlet 구동 환경 제공
 대표 : Tomcat, Jeus, JBoss
 
 출처: https://jeong-pro.tistory.com/84 [기본기를 쌓는 정아마추어 코딩블로그]
+
+*POM.xml (Project Object Model)
+실제 라이브러리 파일이 있는 저장소 서버의 위치를 지정, 프로젝트에서 사용할 라이브러리가 무엇인지 지정.
+
 
